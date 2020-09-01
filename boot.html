@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./css/style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="gallery.html">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="btn-toolbar">
+            <div class="btn-group">
+              <a class="btn btn-outline-info" href="boot.html">HOME</a>
+              <a class="btn btn-outline-info" href="#gallery.html">GALLERY</a>
+              <button
+                class="btn btn-outline-info dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                ANIMALS
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#top">Rabbit</a>
+                <a class="dropdown-item" href="#end">Chick</a>
+                <a class="dropdown-item" href="#end">Cat</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- ▼▼ナビゲーションバー▼▼ -->
+          <nav class="navbar navbar-toggleable-md navbar-light bg-info col-12">
+            <!-- data-toggle="collapse"は折りたたむ -->
+            <!-- aria-expanded="..." は開閉状態 -->
+            <!-- aria-controls="..." は対象を示す -->
+            <small> </small>
+            <button
+              class="navbar-toggler navbar-toggler-right"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <!-- ↓三のアイコン -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapseのターゲット -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="boot.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    ANIMALS
+                  </a>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#">Rabbit</a>
+                    <a class="dropdown-item" href="#">Chick</a>
+                    <a class="dropdown-item" href="#">Cat</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link disabled" href="#">New Animals</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <div class="input-group">
+                  <input
+                    class="form-control mr-sm-2"
+                    type="text"
+                    placeholder="Animal name"
+                  />
+                </div>
+                <button class="btn btn-success my-2 my-sm-0" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+          <!-- ▲▲ナビゲーションバー▲▲ -->
+          <div class="col-md-12 intro">
+            <h1 class="col-md-12">Hello, Animals!</h1>
+            <div class="col-md-12 under">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-md-12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <button type="button" class="btn btn-primary">
+              Learn more
+            </button>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 my-bg order-1 rabbit">Rabbit</div>
+              <div class="col-md-6 order-2">
+                <div class="align-self-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <button type="button" class="btn btn-outline-info">
+                  View details »
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 order-2">
+                <div class="align-self-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <button type="button" class="btn btn-outline-info">
+                  View details »
+                </button>
+              </div>
+              <div class="col-md-6 my-bg order-1 chick">Chick</div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 my-bg order-1 cat">Cat</div>
+              <div class="col-md-6 order-2">
+                <div class="align-self-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <button type="button" class="btn btn-outline-info">
+                  View details »
+                </button>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-block btn-info active" href="#top">Go to top</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

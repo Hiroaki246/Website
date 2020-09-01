@@ -1,0 +1,70 @@
+/* .contents {
+  border: 1px solid #76d3f4;
+  color: #fff;
+  background: linear-gradient(to right, #76d3f4, white);
+  text-shadow: 1px 1px 1px #333;
+} */
+/* 背景画像を設定したcol要素用 */
+.my-bg {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333;
+  border: 2px solid #000;
+}
+
+.rabbit {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7a/Oryctolagus_cuniculus_Tasmania.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.chick {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e9/Chick.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/AfricanWildCat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* 文章が入っているcol要素用 */
+.my-text {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro {
+  background-color: lightgray;
+  padding: 15px;
+}
+
+.intro h1 {
+  font-size: 90px;
+}
+
+.intro .under {
+  border-bottom: solid 2px darkgray;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+/* .intro p::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 900px;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+} */

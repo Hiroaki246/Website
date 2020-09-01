@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.gazou {
+  background-color: rgb(102, 102, 102);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.my-bg {
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  min-height: 200px;
+  min-width: 200px;
+  border: 1px solid lightgray;
+}
+
+#link1 h1 {
+  font-size: 30px;
+}
+
+.sp5 {
+  padding: 5px;
+}
+
+.sp0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#blogtitle {
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+}
+
+#blogtitle h1 {
+  font-size: 60px;
+}
+
+#blogtitle h2 {
+  font-size: 20px;
+  color: gray;
+}
+
+#blog {
+  padding: 20px;
+}
+
+#blog h1 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+#blog h2 {
+  font-size: 20px;
+  color: gray;
+}
+
+#blog h3 {
+  font-size: 30px;
+}
+
+#blog ol {
+  padding-left: 20px;
+}
+
+.bb {
+  border-bottom: 1px solid lightgray;
+}
+
+.font-block {
+  font-family: Impact, Charcoal;
+}
+
+#log {
+  padding-top: 30px;
+}
+
+#log h1 {
+  font-size: 25px;
+}
+
+.bcolor {
+  background-color: lightgray;
+}
+
+.arc {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+#blogfooter {
+  background-color: lightgray;
+  text-align: center;
+  border-top: darkgray;
+  padding: 2.5rem 0;
+}
+
+#blogfooter p {
+  margin: 0px;
+}
+
+.card {
+  padding: 0;
+  overflow: hidden;
+}
+#wrap {
+  overflow: hidden;
+}
+/* 
+code {
+  color: black;
+  padding-bottom: 5rem;
+} */
